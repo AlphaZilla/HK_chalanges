@@ -1,2 +1,2 @@
-# HK_chalanges
-My hackerRank chalanges
+# HR_challenges
+My solved HackerRank challenges
