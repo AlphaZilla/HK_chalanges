@@ -18,4 +18,3 @@ for x in range(0, nr):
 	test = int(input("cate cicluri :"))
 	res = hightCycler(test)
 	print("inaltimea este :", res)
-	
