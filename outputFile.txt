@@ -1,0 +1,9 @@
+8956324712
+<type 'str'>
+YES
+8453445r37
+<type 'str'>
+NO
+85234789651
+<type 'str'>
+NO
