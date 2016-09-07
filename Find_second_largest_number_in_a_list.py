@@ -10,3 +10,4 @@ for x in range(L.count(max(L))):
 
 # print the biggest int from original list
 print(max(L))
+
