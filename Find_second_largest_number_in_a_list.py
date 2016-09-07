@@ -8,6 +8,6 @@ L = list(int(x) for x in input().strip().split(" "))
 for x in range(L.count(max(L))):
     L.remove(max(L))
 
-# print the biggest int from original list
+# print the biggest int from the original list
 print(max(L))
 

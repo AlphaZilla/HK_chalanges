@@ -11,7 +11,7 @@ def hightCycler(nr):
     else:
         return hight
 
-# number of tests. This is first input
+# number of tests. This is the first input
 nr = int(input("numarul de teste :"))
 
 for x in range(0, nr):

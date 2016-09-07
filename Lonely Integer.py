@@ -1,7 +1,6 @@
 #!/usr/bin/py
 # Head ends here
 
-
 def lonelyinteger(b):
     ans = 0
     for x in b:

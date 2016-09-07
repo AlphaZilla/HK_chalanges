@@ -1,2 +1,2 @@
-# HR_challenges
-My solved HackerRank challenges
+# HR challenges
+My solutions to various HackerRank.com challenges.
