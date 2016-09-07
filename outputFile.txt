@@ -6,4 +6,4 @@ YES
 NO
 85234789651
 <type 'str'>
-NO
+YES
