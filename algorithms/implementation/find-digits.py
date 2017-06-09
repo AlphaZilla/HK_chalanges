@@ -8,7 +8,7 @@ for _ in range(N):
         try:
             if cNr % int(digit) == 0:
                 # print("Is even")
-                count +=  1
+                count += 1
         except ZeroDivisionError:
             # print("Not even")
             pass

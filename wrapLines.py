@@ -1,8 +1,8 @@
 # Wrap evrey line from preInput.txt with ""
 
 # open file for read and write input
-preInputFile = open("preInput.txt", "rt")  # read text
-inputFile = open("inputFile.txt", "wt")  # write text
+preInputFile = open("pre-input.txt", "rt")  # read text
+inputFile = open("input-file.txt", "wt")  # write text
 
 # create a list with all the lines from file
 textFile = preInputFile.readlines()
