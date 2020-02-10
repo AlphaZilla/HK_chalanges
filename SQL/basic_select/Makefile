@@ -1,3 +1,7 @@
+start:
+	@echo No commands to run.
+	@echo Please add project commands..
+
 psql-docker:
 	docker run --name hrank-db -p 5442:5432 \
 	-d postgres:9.6 || docker start hrank-db
