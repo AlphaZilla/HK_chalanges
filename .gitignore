@@ -1,3 +1,5 @@
 *.*.sw*
 HR_Chalanges.sublime-workspace
 HR_Chalanges.sublime-project
+
+.idea
