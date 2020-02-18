@@ -1,3 +1,7 @@
+### Starting the dev environment
+Creating a docker image for PostgreSQL container:  
+For the first run ( e.g. @make psql-docker from make start ) use gitBash to avoid ${PWD} error
+
 ###  Docker containers
 ##### PostgreSQL container:
 exposed port: 32768 --> 5432  
