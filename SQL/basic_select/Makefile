@@ -1,9 +1,12 @@
 start:
-	@echo No commands to run.
-	@echo Please add project commands..
+	@echo Starting PostgreSQL Docker image..
+	@make psql-docker
 
 psql-docker:
-	docker run --name hrank-db -p 5442:5432 \
-	-d postgres:9.6 || docker start hrank-db
-
+	# create new image or use the created one
+	docker run -p 32768:5432 --name hr-psql-db hr_postgresql || docker start hr-psql-db
 #	-v ${PWD}/db_dumps:/db_dumps_docker \
+
+stop:
+	@echo Stoping container..
+	docker stop hr-psql-db
