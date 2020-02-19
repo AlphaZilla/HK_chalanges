@@ -19,14 +19,14 @@ Creating the Dockerfile for PostgreSQL image:
 https://docs.docker.com/engine/examples/postgresql_service/
 
 ## TODO
-1. Fix - attach a volume to a container
-   1. create docker image from container with current db and
-   2. start new container from new image with **volume** to a folder in this project
-   3. remove old original image
-   4. update configuration to start with new image/container
-   5. check a wey to privately publish the new image for
+1. ~~Fix - attach a volume to a container~~
+   1. ~~create docker image from container with current db and~~
+   2. ~~start new container from new image with **volume** to a folder in this project~~
+   5. ~~check a wey to privately publish the new image for~~
 
-2. backup psql db to a file outside container
+2. ~~backup psql db to a file outside container~~
+
+   3. ~~used Docker cp command~~
 
 
 
