@@ -12,6 +12,10 @@ docker database user: **docker**
 \du ( display users )  
 \l ( list databases )
 \c <db_name>  ( connect to database )
+\dt ( display tables )
+
+**Useful Docker commands**  
+`docker exec -it --user root 4f846e2fda24 chown postgres /var/lib/postgresql/db_back.bak` ( chown for psql db dumps )
 
 **Useful links:**  
 Docker:  
